@@ -1,0 +1,13 @@
+/* ---------- base ---------- */
+@import url('./base/normalize.css');
+@import url('./base/variaveis.css');
+@import url('./base/body.css');
+
+
+/* ---------- layout ---------- */
+@import url('./layout/navbar.css');
+@import url('./layout/sidebar.css');
+
+
+/* ---------- components ---------- */
+@import url('./components/tabela.css');

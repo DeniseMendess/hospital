@@ -1,0 +1,25 @@
+.card-body h2 {
+  color: var(--cor-primaria);
+  font-size: var(--h2-font-size);
+  font-family: var(--fonte-destaque);
+  font-weight: var(--font-bold);
+}
+
+.form-label {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 1rem;
+}
+
+.form-control,
+.form-select {
+  padding: var(--normal-font-size);
+  font-size: var(--h3-font-size);
+  border-radius: 6px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 1px solid var(--cor-destaque);
+  box-shadow: none;
+}

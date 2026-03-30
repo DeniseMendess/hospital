@@ -1,0 +1,19 @@
+.card-dashboard{
+  background-color: #fff;
+  cursor: pointer;
+  padding: 1.8rem;
+  border-radius: 12px;
+  transition: var(--transition-025s);
+}
+
+.card-dashboard:hover{
+  transform: translateY(-.5rem);
+}
+
+.card-icon{
+  color: var(--cor-destaque);
+}
+
+.card-header h3{
+  color: var(--cor-primaria);
+}

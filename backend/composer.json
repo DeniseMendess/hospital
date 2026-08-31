@@ -1,0 +1,19 @@
+{
+  "name": "denise/backend",
+  "description": "Backend da API do hospital Reviver",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Denise Mendes",
+      "email": "denisemendesjanota@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.7"
+  }
+}
